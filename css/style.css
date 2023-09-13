@@ -12,8 +12,12 @@
 	--color-green: #418107;
 }
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 15px 30px;
+}
+.debug{
+    border: 1px solid black;
 }
 header{
     background-color: var(--color-orange);
@@ -23,4 +27,19 @@ ul{
 }
 ul li{
     display: inline-block;
+    padding: 0px 5px;
+}
+img{
+    width: 10%;
+}
+/* utility */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+/* main */
+main{
+    padding-top: 50px;
 }
