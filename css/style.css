@@ -1,0 +1,26 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-orange: #ec6633;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-red: #e93f33;
+	--color-green: #418107;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: var(--color-orange);
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
