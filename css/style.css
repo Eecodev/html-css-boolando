@@ -32,12 +32,16 @@ ul li{
 img{
     width: 10%;
 }
+.fa-regular,.fa-solid{
+    color: var(--color-white);
+}
 /* utility */
 .d-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
+}
+.white-text{
+    color: var(--color-white)
 }
 /* main */
 main{
