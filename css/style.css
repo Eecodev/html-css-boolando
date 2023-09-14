@@ -50,6 +50,9 @@ ul li{
 /* flex utility */
 .d-flex{
     display: flex;
+    flex-direction: row;
+}
+.s-between{
     justify-content: space-between;
 }
 /* main */
