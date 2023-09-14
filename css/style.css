@@ -11,6 +11,9 @@
 	--color-red: #e93f33;
 	--color-green: #418107;
 }
+body{
+    font-family: 'Space Mono', monospace;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
