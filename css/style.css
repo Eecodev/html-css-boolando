@@ -26,6 +26,11 @@ body{
 header{
     background-color: var(--color-orange);
     color: var(--color-white);
+    box-shadow: 0 1px 3px #666;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 ul{
     list-style: none;
