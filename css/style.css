@@ -31,6 +31,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    height: 70px;
+    z-index: 1000;
 }
 ul{
     list-style: none;
@@ -52,7 +54,7 @@ ul li{
 }
 /* main */
 main{
-    padding-top: 50px;
+    padding-top: 70px;
 }
 /* footer */
 footer{
