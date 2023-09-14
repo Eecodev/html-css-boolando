@@ -66,6 +66,9 @@ ul a{
 .h-center{
     justify-content: center;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .align-center{
     align-items: center;
     align-content: center;
@@ -73,6 +76,10 @@ ul a{
 /* main */
 main{
     padding-top: 70px;
+}
+.card{
+    width: calc(100% / 3);
+    padding: 10px 5px;
 }
 /* footer */
 footer{
