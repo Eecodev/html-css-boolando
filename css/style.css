@@ -34,18 +34,23 @@ header{
     height: 70px;
     z-index: 1000;
 }
+nav{
+    height: 100%;
+}
 ul{
     list-style: none;
 }
 ul li{
-    display: inline-block;
     padding: 0px 5px;
 }
-.img-logo{
-    width: 10%;
+.logo img{
+    width: 150px;
 }
 .fa-regular,.fa-solid{
     color: var(--color-white);
+}
+a{
+    text-decoration: none;
 }
 /* flex utility */
 .d-flex{
@@ -54,6 +59,10 @@ ul li{
 }
 .s-between{
     justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
 }
 /* main */
 main{
