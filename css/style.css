@@ -47,7 +47,7 @@ ul li{
 .fa-regular,.fa-solid{
     color: var(--color-white);
 }
-/* utility */
+/* flex utility */
 .d-flex{
     display: flex;
     justify-content: space-between;
